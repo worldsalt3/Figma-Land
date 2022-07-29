@@ -70,6 +70,47 @@ ul {
     display: none;
 }
 
+.hero {
+    display: flex;
+}
+
+.hero-content {
+    margin-top: 178px;
+}
+
+
+
+.hero-content h1 {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.hero-content p {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.hero-content button {
+    background: #FFFFFF;
+    color: #38A3F1;
+    font-size: 22px;
+    padding: 15px 30px;
+    border-radius: 35px;
+    border: none;
+    margin-top: 70px;
+}
+
+
+
+
 /* Mobile view */
 @media screen and (max-width: 768px) {
     .nav, .nav-form {
