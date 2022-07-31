@@ -78,6 +78,9 @@ ul {
     margin-top: 178px;
 }
 
+.hero-img  img{
+    max-width: 100%;
+}
 
 
 .hero-content h1 {
@@ -168,6 +171,42 @@ ul {
 line-height: 27px;
     margin-top: 30px;
 } 
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-3 h3 {
+    font-weight: 400;
+    font-size: 46px;
+    width: 300px;
+    text-align: center;
+}
+
+.section-3 p {
+    margin-top: 27px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.section-3 button {
+    font-size: 16px;
+    margin: 90px;
+    background: #38A3F1;
+    border-radius: 35px;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    border: none;
+    font-weight: 700;
+}
+
+.macbook img{
+    max-width: 100%;
+}
 
 
 
