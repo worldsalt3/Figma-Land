@@ -298,7 +298,7 @@ line-height: 27px;
     margin-top: 90px;
 }
 
-.section-6 .section-6-p, .section-7-p  {
+.section-6 .section-6-p, .section-7-p {
     margin-top: 60px;
     width: 683px;
     font-weight: 700;
@@ -404,6 +404,116 @@ sup {
     font-weight: 500;
 }
 
+.section-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #252B42;
+    color: #FFFFFF;
+    padding: 80px;
+}
+
+.section-8-article-1 {
+    text-align: center;
+}
+
+.section-8-article-1 h3 {
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: 0.2px;
+}
+
+
+ .section-8-article-1 p  {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    max-width: 298px;
+    margin-top: 27px;
+ }
+
+ .section-8 section {
+    display: flex;
+    margin-top: 50px;
+ }
+
+.section-8-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-8 form input {
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    padding: 15.0353px 13.0742px;
+    border-radius: 20px;
+    margin-top: 31px;
+}
+
+.section-8 form textarea {
+    background: #F5F5F5;
+    border: 0.65371px solid #E8E8E8;
+    margin-top: 31px;
+    border-radius: 5px;
+    padding: 15px;
+    
+}
+
+.section-8-form button {
+    background: #EF2779;
+    border-radius: 35px;
+    color: #FFFFFF;
+
+}
+
+.section-8-form {
+    width: 400.72px;
+    background: #FFFFFF;
+    padding: 26px 41px;
+    border-radius: 13.0742px;
+    border: 0.65371px solid #DDDDDD;
+}
+
+.section-8-form button {
+    margin-top: 31px;
+    max-width: 94px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+
+.product-info {
+    align-self: center;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.product-info div {
+    display: flex;
+    align-content: center;
+    margin-bottom: 23px;
+}
+
+.product-info p {
+    margin-left: 20px;
+    align-self: center;
+    width: 300px;
+}
+
+
+.product-info .socials {
+    margin-top: 75px;
+}
+
+.socials img {
+      margin-left: 33px;
+}
 
 
 
