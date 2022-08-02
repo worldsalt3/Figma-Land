@@ -195,7 +195,7 @@ line-height: 27px;
     
 }
 
-.section-3 button {
+.section-3 button, .section-5 button {
     font-size: 16px;
     margin: 90px;
     background: #38A3F1;
@@ -239,6 +239,48 @@ line-height: 27px;
     font-size: 16px;
     font-weight: 500;
 }
+
+.section-5  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      padding-top: 130px;
+}
+
+.section-5-article-1 {
+    max-width: 300px;
+    text-align: center;
+}
+
+.section-5-article-1 p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #374754;
+    margin-top: 27px;
+}
+
+.client-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.client-section article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 24%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 340px;
+}
+
 
 
 
