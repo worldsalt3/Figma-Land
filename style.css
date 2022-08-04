@@ -1,5 +1,4 @@
 /* Desktop view */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -91,7 +90,6 @@ ul {
     display: none;
 }
 
-
 .hero-content h1 {
     font-weight: 900;
     font-size: 55px;
@@ -150,8 +148,7 @@ ul {
 .sub-section-2 {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 90px;
-   
+    margin-top: 90px; 
 }
 
 .sub-article-content {
@@ -175,7 +172,7 @@ ul {
 
 .article-para {
     font-size: 18px;
-line-height: 27px;
+    line-height: 27px;
     margin-top: 30px;
 } 
 
@@ -305,7 +302,7 @@ line-height: 27px;
 
 .section-6 .section-6-p, .section-7-p {
     margin-top: 60px;
-    width: 683px;
+    max-width: 683px;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -351,7 +348,6 @@ line-height: 27px;
     text-align: left;
     flex-direction: column;
     justify-content: space-evenly;
-    /* align-items: flex-start; */
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
@@ -594,7 +590,65 @@ sup {
         display: none;
     }
 
+    .sub-section-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+    }
 
+    .client-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .client-section article {
+        gap: 30px;
+        margin: 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .product-info {
+        display: flex;
+        flex-direction: column-reverse;
+        order: 1;
+        margin-left: 0px;
+        margin-bottom: 78px;
+    }
+
+    .section-8-form {
+        order: 2;
+    }
+
+    .section-8 section {
+        flex-direction: column;
+    }
+
+    .product-info .socials {
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+
+    .section-9 {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .section-9-img {
+        margin-left: 0px;
+    }
+
+    .section-9-img img {
+        max-width: 400px;
+    }
 
 }
 
